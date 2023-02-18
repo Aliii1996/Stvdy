@@ -1,0 +1,73 @@
+header {
+    height: 279;
+    background-color: #333333;
+    color: #fff;
+}
+
+header img {
+    max-width: 125px;
+    height: 47px;
+    
+}
+
+
+
+.home-button {
+    width: 479px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #fff;
+    position: absolute;
+}
+
+
+
+.sub-button {
+    border: none;
+    width: 205px;
+    height: 50px;
+    background-color: #FF6057;
+    border-radius: 25px;
+    position: relative;
+    right:0;
+
+}
+.fab {
+    color: white;
+    margin-right: 7px;
+    background-color:black;
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    padding: auto;
+    transition: all 1s;
+      
+
+}
+
+.fa-facebook:hover {
+  
+    background-color: #0275d8;
+
+}
+
+.fa-twitter:hover {
+    background-color: red;
+
+}
+
+.fa-linkedin-in:hover {
+    background-color: #0275d8;
+}
+
+
+@media screen and (max-width:1024px) {
+
+    header {
+        
+        text-align: center;
+    
+    }
+    
+    
+    }

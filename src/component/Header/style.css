@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+  margin-top: 60px;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "Poppins";
+}
+
+footer .footer-main > div {
+  padding-bottom: 30px;
+}
+
+footer .title,
+footer .logo {
+  font-size: 48px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-family: Nueva Std;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+footer a:hover {
+  color: #ff6057;
+}
+
+footer .sign-up {
+  position: relative;
+}
+
+footer .sign-up #email,
+footer .sign-up .signupbtn {
+  padding: 10px 20px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid gray;
+}
+
+footer .sign-up #email {
+  width: 100%;
+}
+
+footer .sign-up .signupbtn {
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: #ff6057;
+}
+
+
+@media (max-width: 768px) {
+  .sec1 .icons-container .icon-item {
+    width: 100%;
+    padding: 15px;
+  }
+  section {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .footer-main {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footer-main a {
+    display: block;
+  }
+  .footer-main .title {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Poppins;
+  }
+  .footer-main .footer-about {
+    width: 35%;
+  }
+  .footer-main .footer-sign-up {
+    width: 100%;
+  }
+  .footer-main .footer-sign-up .sign-up {
+    position: relative;
+  }
+  .footer-main .footer-sign-up .sign-up #email,
+  .footer-main .footer-sign-up .sign-up .signupbtn {
+    padding: 10px 20px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid gray;
+  }
+  .footer-main .footer-sign-up .sign-up #email {
+    width: 75%;
+    font-weight: 600;
+  }
+  .footer-main .footer-sign-up .sign-up #email::placeholder {
+    color: #565656;
+  }
+  .footer-main .footer-sign-up .sign-up .signupbtn {
+    position: absolute;
+    margin-top: 0;
+    top: 0;
+    right: 0;
+    width: 205px;
+  }
+  .text-grey {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+
+
+
+
+@media (min-width: 1024px) {
+
+  .footer-main .footer-about {
+    width: 20%;
+  }
+  .footer-main .footer-sign-up {
+    width: 50%;
+  }
+  .footer-main .footer-sign-up .sign-up {
+    position: relative;
+  }
+  .footer-main .footer-sign-up .sign-up #email,
+  .footer-main .footer-sign-up .sign-up .signupbtn {
+    padding: 10px 20px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid gray;
+  }
+  .footer-main .footer-sign-up .sign-up #email {
+    width: 75%;
+  }
+  .footer-main .footer-sign-up .sign-up .signupbtn {
+    position: absolute;
+    margin-top: 0;
+    top: 0;
+    /* left: 270px; */
+    width: 205px;
+  }
+}
+
+
+
+

@@ -1,0 +1,75 @@
+ img {
+    width: 100%;
+ }
+
+ .partners-logo {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+   
+    
+  }
+  
+  .partners-logo img {
+    height: 50px;
+  }
+
+ .home{
+    height: 90vh;
+    background-image: url(../../assets/Sans\ titre-1.png);
+    background-repeat: no-repeat;
+}
+
+.content-home {
+    color: #fff;
+
+}
+
+.content-home h3 , .content-home h1 {
+    font-weight: bold;
+}
+
+.content-home h1 {
+    font-size: 58px;
+}
+
+
+.content-button {
+    color: #FF6158 !important;
+    width: 178px;
+    height: 45px;
+    border-radius: 12px !important;
+}
+
+.btn-primary {
+    background-color: white !important;
+
+}
+
+@media screen and (max-width:1024px) {
+    .home {
+        height: auto;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .partners-logo {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .partners-logo img {
+        margin-top: 15px;
+    }
+
+    .content-home {
+        text-align: center;
+    }
+ 
+ }
+ 
+ 
+
+ @media screen and (max-width:600px) {
+    
+ }

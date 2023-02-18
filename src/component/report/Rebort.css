@@ -1,0 +1,51 @@
+.report {
+    height: auto;
+}
+
+.head {
+    font-size: 38px;
+    margin-bottom: 100px;
+    
+}
+
+.number {
+    font-size: 46px;
+    color: #FF6057;
+}
+
+.Girl-img {
+    max-width: 203px;
+    max-height: 157px;
+}
+
+.star-img {
+    max-width: 18px;
+    max-height: 17px;
+}
+
+.cardd {
+    width: 574px;
+    height: 360;
+    border: 1px  ;
+    padding: 50px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+
+.Headd {
+    font-size: 38px;
+    font-weight: 900;
+}
+
+
+
+
+@media screen and (max-width:1024px) {
+
+.text-rightt {
+    margin-top: 85px;
+    text-align: center;
+
+}
+
+
+}
